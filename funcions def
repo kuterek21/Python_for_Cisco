@@ -1,0 +1,6 @@
+def greet(): # def for define a new funcion called greet ## user defined funcion
+    print("Welcome to ")
+    print("this new way ")
+    print("of learning funcions by")
+
+greet() #call the function to work
