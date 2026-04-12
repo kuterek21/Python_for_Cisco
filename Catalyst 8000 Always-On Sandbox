@@ -3,3 +3,6 @@ https://devnetsandbox.cisco.com/DevNet/environments/cdSqPIKdC4QV/simplified/inst
 devnetsandboxiosxec8k.cisco.com
 
 J8Ys8uPG1-9QLhs_
+
+ssh -o KexAlgorithms=+diffie-hellman-group14-sha256 user@x.x.x.x
+
