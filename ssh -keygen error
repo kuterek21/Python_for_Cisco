@@ -1,0 +1,1 @@
+ssh-keygen -f "/home/student/.ssh/known_hosts" -R "10.1.1.101"
