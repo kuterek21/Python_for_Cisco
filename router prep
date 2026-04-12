@@ -1,0 +1,13 @@
+conf t
+ip domain-name abc.com
+crypto key gen rsa mod 1024
+ip ssh ver 2
+username **** priv 15 secret ****
+line vty 0 4
+login local
+transp input all
+int g0
+ip add 10.1.1.101 255.255.255.0
+no sh
+
+---------------------------
