@@ -1,0 +1,41 @@
+pip install paramiko
+pip show paramiko - to check if paramiko is available
+!
+// sudo apt insall software-properties-common
+// sudo apt-add-reposirtory --yes --update ppa:ansible/ansible
+// sudo apt install ansible
+--------------------------------------------------------------
+mkdir ansible // create your folder
+cd ansible
+
+touch inventory.ini
+
+R1 ansible_host=
+R1 ansible_user=
+R1 ansible_password=
+R1 ansible_network_os=ios
+!-----------------------------------
+touch myplaybook.yml    
+---
+- name: Play_1
+    tasks:
+        - name: task1
+
+        - name: task2
+
+        - name: task3
+
+- name: Ansible_playbook
+  hosts: all // all the devices specified in the inventory file
+//hosts: Switches or Routers or R1,R2
+  gather_facts: false
+  connection: network_cli 
+  tasks: 
+     - name: Configure Loopback on R1
+       description: Configured by Ansible
+       enabled: true
+     - name: task2
+     - name: task3
+
+
+
