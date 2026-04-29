@@ -21,14 +21,13 @@
 mkdir ansible // create your folder
 cd ansible
 
-touch inventory.ini
+### touch inventory.ini
 
 - R1 ansible_host=
 - R1 ansible_user=
 - R1 ansible_password=
 - R1 ansible_network_os=ios
-!-----------------------------------
-touch myplaybook.yml    
+### touch myplaybook.yml    
 ---
 - name: Play_1
     tasks:
