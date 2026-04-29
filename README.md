@@ -23,10 +23,10 @@ cd ansible
 
 touch inventory.ini
 
-R1 ansible_host=
-R1 ansible_user=
-R1 ansible_password=
-R1 ansible_network_os=ios
+- R1 ansible_host=
+- R1 ansible_user=
+- R1 ansible_password=
+- R1 ansible_network_os=ios
 !-----------------------------------
 touch myplaybook.yml    
 ---
