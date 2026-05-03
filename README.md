@@ -39,7 +39,7 @@ cd ansible
 
 - name: Ansible_playbook
   hosts: all // all the devices specified in the inventory file
-//hosts: Switches or Routers or R1,R2
+//hosts: Switches o  r Routers or R1,R2
   gather_facts: false
   connection: network_cli 
   tasks: 
@@ -56,9 +56,11 @@ cd ansible
 ### Git config 
    - git config --global user.name "Mariusz"
    - git config --global user.email "m@wp.pl"
-     
-----------------------------------------------------------
- Working directory  |  Staging Area     | Local repo
-----------------------------------------------------------
-                    |                   |
+### Git commands
+ - git status
+ - git init // initiate emty git repo in a folder ( .git )
+ - // to delete git file - rm -rf .git/
+ - git add test.py
+ - git commit -m "Add a note"
+###
 
