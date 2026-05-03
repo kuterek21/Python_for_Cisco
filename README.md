@@ -51,4 +51,15 @@ cd ansible
 
 # VCS Version Control System
 ## " Git "
+----------------------------------------------------------
+ Working directory  |  Staging Area     | Local repo
+----------------------------------------------------------
+                    |                   |
+                    |                   |
+                    |                   |
+                    |                   |
+          |
+          |
+          |
+          |
  - 
