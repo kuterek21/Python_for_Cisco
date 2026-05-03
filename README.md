@@ -51,15 +51,14 @@ cd ansible
 
 # VCS Version Control System
 ## " Git "
+### Install GIT
+   -   sudo apt install git
+### Git config 
+   - git config --global user.name "Mariusz"
+   - git config --global user.email "m@wp.pl"
+     
 ----------------------------------------------------------
  Working directory  |  Staging Area     | Local repo
 ----------------------------------------------------------
                     |                   |
-                    |                   |
-                    |                   |
-                    |                   |
-          |
-          |
-          |
-          |
- - 
+
