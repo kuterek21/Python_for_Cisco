@@ -2,9 +2,9 @@
 
 ## Table of Content
 
-- Python part
+- [Python part] (#First lesson)
    - Netmiko
-- Ansible
+- [Ansible](#Ansible)
 - Git
 
 ## First lesson 
