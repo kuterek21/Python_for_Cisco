@@ -5,7 +5,7 @@
 - [Python part](#First_lesson)
    - Netmiko
 - [Ansible](#Ansible)
-- [Git](#VCS)
+- [Git](#VCS_Version_Control_System)
 
 ## First_lesson 
 
@@ -52,8 +52,7 @@ cd ansible
      - name: task2
      - name: task3
 
-## VCS 
-## Version Control System
+## VCS_Version_Control_System
   " Git "
 ### Install GIT
    -   sudo apt install git
