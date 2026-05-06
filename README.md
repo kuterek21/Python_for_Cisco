@@ -2,10 +2,10 @@
 
 ## Table of Content
 
-- [Python part](#First lesson)
+- [Python part](#First)
    - Netmiko
 - [Ansible](#Ansible)
-- [Git](#VCS Version Control System)
+- [Git](#VCS)
 
 ## First lesson 
 
