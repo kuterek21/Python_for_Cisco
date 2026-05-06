@@ -65,5 +65,5 @@ cd ansible
 ### Git upload to GitHub
  - GitLab / profile / personal access tokens / Generate token
  -  git psuh --set-upstream https://gitlab.com/kuterek21/GIT_FUNDEMANTALS_2026.git main
- -  
+  
 
