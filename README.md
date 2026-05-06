@@ -51,8 +51,8 @@ cd ansible
      - name: task2
      - name: task3
 
-**  VCS Version Control System
-->  " Git "
+## VCS Version Control System
+  " Git "
 ### Install GIT
    -   sudo apt install git
 ### Git config 
