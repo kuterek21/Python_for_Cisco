@@ -2,7 +2,9 @@
 
 ## Table of Content
 
-- [Instalation]
+- Python part
+- Ansible
+- Git
 
 ## First lesson 
 
