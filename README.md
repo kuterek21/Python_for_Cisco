@@ -57,10 +57,13 @@ cd ansible
    - git config --global user.name "Mariusz"
    - git config --global user.email "m@wp.pl"
 ### Git commands
- - git status
+ - git status // to check to state of our repo
  - git init // initiate emty git repo in a folder ( .git )
  - // to delete git file - rm -rf .git/
  - git add test.py
  - git commit -m "Add a note"
-###
+### Git upload to GitHub
+ - GitLab / profile / personal access tokens / Generate token
+ -  git psuh --set-upstream https://gitlab.com/kuterek21/GIT_FUNDEMANTALS_2026.git main
+ -  
 
