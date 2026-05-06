@@ -2,12 +2,12 @@
 
 ## Table of Content
 
-- [Python part](#First)
+- [Python part](#First_lesson)
    - Netmiko
 - [Ansible](#Ansible)
 - [Git](#VCS)
 
-## First lesson 
+## First_lesson 
 
  - print("Hello World")
 ## Ansible
@@ -52,7 +52,8 @@ cd ansible
      - name: task2
      - name: task3
 
-## VCS Version Control System
+## VCS 
+## Version Control System
   " Git "
 ### Install GIT
    -   sudo apt install git
